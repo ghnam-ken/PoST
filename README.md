@@ -6,7 +6,7 @@ Accepted to [CVPR2021](http://cvpr2021.thecvf.com/)
 
 ## Abstract
 In this paper, we propose a novel learning-based polygonal point set tracking method.
-Compared to existing video object segmentation~(VOS) methods that propagate pixel-wise object mask information, we propagate a polygonal point set over frames. 
+Compared to existing video object segmentation(VOS) methods that propagate pixel-wise object mask information, we propagate a polygonal point set over frames. 
 Specifically, the set is defined as a subset of points in the target contour, and our goal is to track corresponding points on the target contour.
 Those outputs enable us to apply various visual effects such as motion tracking, part deformation, and texture mapping.
 To this end, we propose a new method to track the corresponding points between frames by the global-local alignment with delicately designed losses and regularization terms.
