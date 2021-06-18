@@ -1,6 +1,7 @@
 # Polygonal Point Set Tracking
 Accepted to [CVPR2021](http://cvpr2021.thecvf.com/)
 \[[paper](https://arxiv.org/abs/2105.14584)\]
+\[[video](https://youtu.be/3KNAU0SFq6A)\]
 \[[PoST](https://drive.google.com/file/d/1yNhiCtnWpzYZuuRGR886WZ48Fpwt-EhY/view?usp=sharing)\]
 \[[results](https://drive.google.com/file/d/1gElr0mvIivMHrzj3etMAssNZzGZOmfin/view?usp=sharing)\]
 
