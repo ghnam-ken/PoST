@@ -26,5 +26,13 @@ python eval.py --result_path RESULT_PATH --data_path PoST_PATH --threshs 0.16 0.
 **Model Code** will be uploaded soon
 
 ## Citation
-TBA
-
+```
+@InProceedings{Nam_2021_CVPR,
+    author    = {Nam, Gunhee and Heo, Miran and Oh, Seoung Wug and Lee, Joon-Young and Kim, Seon Joo},
+    title     = {Polygonal Point Set Tracking},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {5569-5578}
+}
+```
