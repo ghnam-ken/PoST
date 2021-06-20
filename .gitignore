@@ -1,7 +1,9 @@
 # Custom
+checkpoints/
 results/
 outputs/
 data/
+old/
 .DS_Store
 
 # Byte-compiled / optimized / DLL files

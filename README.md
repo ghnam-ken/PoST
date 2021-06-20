@@ -2,7 +2,7 @@
 Accepted to [CVPR2021](http://cvpr2021.thecvf.com/)
 \[[paper](https://arxiv.org/abs/2105.14584)\]
 \[[video](https://youtu.be/3KNAU0SFq6A)\]
-\[[PoST](https://drive.google.com/file/d/1yNhiCtnWpzYZuuRGR886WZ48Fpwt-EhY/view?usp=sharing)\]
+\[[PoST](https://drive.google.com/file/d/1YprrEHQDC_iMBNMP0byL0x_ezgVcQA6M/view?usp=sharing)\]
 \[[results](https://drive.google.com/file/d/1gElr0mvIivMHrzj3etMAssNZzGZOmfin/view?usp=sharing)\]
 
 ## Abstract
@@ -15,8 +15,19 @@ We also introduce a novel learning strategy using synthetic and VOS datasets tha
 Since the existing datasets are not suitable to validate our method, we build a new polygonal point set tracking dataset and demonstrate the superior performance of our method over the baselines and existing contour-based VOS methods.
 In addition, we present visual-effects applications of our method on part distortion and text mapping.
 
+## Inference
+1. Download [PoST dataset](https://drive.google.com/file/d/1YprrEHQDC_iMBNMP0byL0x_ezgVcQA6M/view?usp=sharing)
+2. Download [model weight](https://drive.google.com/file/d/1q36qkhzOJhEQacq9xxHQPwva1-RhUizf/view?usp=sharing)
+```
+python main.py --mode=val \
+               --data=PoST \
+               --data_root=DATA_ROOT \
+               --net_path=MODEL_PATH \
+               --save_root=SAVE_ROOT \
+```
+
 ## Evaluation
-1. Download [PoST dataset](https://drive.google.com/file/d/1yNhiCtnWpzYZuuRGR886WZ48Fpwt-EhY/view?usp=sharing)
+1. Download [PoST dataset](https://drive.google.com/file/d/1YprrEHQDC_iMBNMP0byL0x_ezgVcQA6M/view?usp=sharing)
 2. Download [Results](https://drive.google.com/file/d/1gElr0mvIivMHrzj3etMAssNZzGZOmfin/view?usp=sharing) or prepare your own result.
 ```
 cd eval
@@ -24,7 +35,7 @@ python eval.py --result_path RESULT_PATH --data_path PoST_PATH --threshs 0.16 0.
 ```
 
 ## Notice
-**Model Code** will be uploaded soon
+**training code** will be uploaded soon
 
 ## Citation
 ```
