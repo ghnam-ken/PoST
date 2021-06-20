@@ -1,4 +1,3 @@
-from os import stat
 from torch.utils.data import Dataset
 import numpy as np
 import cv2
